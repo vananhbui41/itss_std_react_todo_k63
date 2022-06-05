@@ -10,7 +10,7 @@ import React, { useState } from 'react';
 function TodoItem({item}) {
 	const [checked, setChecked] = React.useState(item.done)
 	const handleClick = () => {
-		console.log('long')
+		// console.log('long')
 		setChecked(!checked)
 	}
   return (
